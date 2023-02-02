@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Alan Gerber's tech portfolio</title>
+        <link href='http://fonts.googleapis.com/css?family=Arvo:regular&v1' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="alangerber.css">
+    </head>
+    <body>
+        <h1>Alan Gerber's portfolio</h1>
+        <hr>
+        <a href="index.html"> &lt; back to alangerber.us</a>
+        <div class="intro">
+            <p>I'm a full-stack engineer&mdash;I've worked on computers at every level from hardware design to JavaScript frontends, and have an in-depth understanding of computing that allows me to pick up new technologies at a rapid clip. Some of the things I've build live deep within the guts of websites or aren't public, but here are a few you can see out in the wild.</p>
+            <p>I also have a few small projects available on <a href="https://github.com/akgerber">Github</a>, mostly on Android at present.
+            </p>
+        </div>
+        <div class="entry">
+            <h2>ZocDoc Pediatric Search</h2>
+            <div class="entry-content">
+                This ZocDoc feature enables users to search ZocDoc by whether patients accept pediatric patients. 
+                This was built using C# on the backend and jQuery on the frontend.
+                <a
+                    href="https://www.zocdoc.com/search/?dr_specialty=153&address=10012&insurance_carrier=323&insurance_plan=2359&refine_search=Find+Doctors&reason_visit=75&name=&language=1&gender=-1&patienttypechild=true">
+                    Try it out!</a>
+            </div>
+        </div>
+
+        <div class="entry">
+            <h2>Etsy AutoBill</h2>
+            <div class="entry-content">
+                What's Etsy's #1 way to make money? The fees it charges sellers for the marketplace.
+                A lot of people forget to pay their bill, which isn't so good for revenue. This feature prevents that.
+                <a href="http://www.etsy.com/help/article/3709">Here's Etsy's explanation of this feature.</a>
+                <a href="http://www.etsy.com/your/bill/">If you're an Etsy seller, you can see it live here.</a>
+            </div>
+        </div>
+        
+        <div class="entry">
+            <h2>Etsy Create Shop Flow</h2>
+            <div class="entry-content">
+                Etsy's create shop flow, which keeps its marketplace growing, still looked like clunky web form from 1997. I rebuilt it to make it interactive with built in help functionality, and up to the aesthetic standard of the site.
+                <a href="https://www.etsy.com/help/article/246">Here's Etsy's explanation of the flow.</a>
+                If you happen to be in the mood to open a shop, <a href="https://www.etsy.com/sell">try it out!</a>
+            </div>
+        </div>
+
+        <div class="entry">
+            <h2>8260CSFB SoC Android Power Management </h2>
+            <div class="entry-content">
+                <p>What's that obscure mass of letters and numbers? 8260CSFB is the part number of a system-on-a-chip (SoC), or a whole computer on a single chip. It was the first Qualcomm GSM chipset to use a 4G LTE modem, which was a separate chip that talked to the main one and drew more power, so it took a lot of work to get power management under Android into a good state. Getting Android working right required making a whole ton of builds using Git, repo, and GCC; lots of code review via
+                Gerrit, and huge amounts of debugging using tools like a Trace32 JTAG (to debug right on the the chip), a Spartan power-testing tool to view the power used by individual power rails on the chip, and writing custom Android test apps.</p>
+                <p>A big result was the HTC Vivid, the first LTE phone on AT&T, reviewed by Engadget as having <a href="http://www.engadget.com/2011/11/09/htc-vivid-review/">"excellent standby power management"</a>&mdash;precisely the feature I ensured was working at its highest.</p>
+            </div>
+        </div>
+
+        <div class="entry">
+            <h2>BodyTrack Android App</h2>
+            <div class="entry-content">
+                I worked as a student and later a freelancer to start development on an Android app for the <a href="http://www.bodytrack.org/">BodyTrack project</a>, a centralized repository to store and upload health-related data. My app allowed the user to record and upload GPS locations, pictures of stimuli (like food), and meals eaten. Code is available on <a href="https://github.com/akgerber/BodyTrack">GitHub</a>.
+            </div>
+        </div>
+
+        <div class="entry">
+            <h2>Android Apps</h2>
+            <div class="entry-content">
+                I've built a few other random small Android apps, some with code on GitHub:
+                <ul>
+                    <li>
+                    <a href="https://github.com/akgerber/kill-bot">An illustration of a bug I found that caused the system to reset on a bad service launch</a>
+                    </li>
+                    <li>
+                    <a href="https://github.com/akgerber/SynthAndroid">A control app to communicate via Bluetooth with the Synthesthesia sound-music toy I built with a team for an embedded systems project course</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <h2>Operating System and Thread Library</h2>
+            <div class="entry-content">
+                As part of Carnegie Mellon's legendary course 15-410 (Operating System Design and Implementation), I worked with a partner to build a preemptible multiprocess operating system kernel on x86. The operating system was implemented using another project from the course, a threading library of several primitives such as mutexes, monitors, and semaphores. Building these gave me a deep respect and understanding about how multiprocess computing works at a bare-metal level.
+            </div>
+        </div>
+
+        <!--
+        <div class="entry">
+            <h2>Title</h2>
+            <div class="entry-content">
+                Content
+            </div>
+        </div>
+        -->
+
+    </body>
+</html>
